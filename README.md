@@ -10,11 +10,6 @@ Nesse evento foi desenvolvida uma aplicação completa e inédita, onde eu pude 
 
 
 
-<p align="center">
-  <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
-</p>
-
-
 
 ## 🚀 Tecnologias
 
