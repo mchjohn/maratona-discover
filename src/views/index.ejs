@@ -103,7 +103,11 @@
                   <% if(job.remaining <= 0) { %>
                     <p>Prazo encerrado</p>
                   <% } else { %>
-                    <p><%= job.remaining %> dias para entrega</p>
+                    <% if(job.remaining === 1) { %>
+                      <p><%= job.remaining %> dia para entrega</p>
+                    <% } else { %>
+                      <p><%= job.remaining %> dias para entrega</p>
+                    <% } %> 
                   <% } %> 
                 </div>
                 <div class="amount column">
